@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pollution Analysis</title>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+<body>
+	<h2 align='center'> Pollution Analysis</h2>
+    <div id="bar"></div>
+
+    <!-- <div id="pie"></div> -->
+    
+    <h4> Select State</h4>
+    <!-- <select id= "selDataset">Place Holder for Select</select> -->
+    <select id="selDataset" onchange="optionChanged(this.value)"></select>
+    <!-- <h4> Country Details </h4> -->
+    <div id="d_country"></div>
+                                          
+    <div id="Linechart"></div>
+    <div id="Barchart"></div>
+    <div id="Scatterchart"></div>
+ 
+    <script type='text/javascript' src="../static/app.js"></script>
+ 
+
+	
+</body>
+</html>
